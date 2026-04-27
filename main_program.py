@@ -13,6 +13,7 @@ def run_transmuter():
         print(f'No data available, {source} might be missing/empty!')
         return
     engine = NumberSeparator(raw_data)
-    squared
+    squared_evens = engine.transmute_even()
+    cubed_odds = engine.transmute_odd()
 
 
