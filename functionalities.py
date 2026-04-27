@@ -9,5 +9,5 @@ class NumberSeparator:
 
     def transmute_odd(self):
         """Cubes odd numbers"""
-        return [x ]
+        return [x ** 3 for x in self.numbers if x % 2 != 0 ]
 
