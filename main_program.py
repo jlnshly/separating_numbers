@@ -19,6 +19,9 @@ def run_transmuter():
     FileManager.write_file(odd_numbers, cubed_odds)
     print('Transmutation successful!')
     print(f'{len(squared_evens)} squared evens were transmitted to {even_numbers}!')
-    print()
+    print(f'{len(cubed_odds)} squared evens were transmitted to {odd_numbers}!')
+
+if __name__ == '__main__':
+    run_transmuter()
 
 
